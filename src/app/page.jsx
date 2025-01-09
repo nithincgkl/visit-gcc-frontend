@@ -17,20 +17,22 @@ import BrandHomeOne from '@/components/brand/BrandHomeOne';
 import FooterOne from '@/layouts/footers/FooterOne';
 import Wrapper from '@/layouts/Wrapper';
 import VideoPopup from '@/components/modals/VideoPopup';
-import BannerVideo from '@/components/home/banner-video'
+import Banner from '@/components/home/banner'
+import BannerSearch from '@/components/home/banner';
 
 const Index = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
-  return (
+  return ( 
     <Wrapper>
       <HeaderOne />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
           {/* <BannerVideo /> */}
-         <BannerVideo />
-          {/* <HeroHomeOne /> */}
+       
+         <BannerSearch />
+        
           
             
             <MarqueeAreaHomeOne />

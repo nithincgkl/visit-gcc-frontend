@@ -1,0 +1,254 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('/fonts/Satoshi-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('/fonts/Satoshi-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Light.woff2') format('woff2'),
+         url('/fonts/Satoshi-Light.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Medium.woff2') format('woff2'),
+         url('/fonts/Satoshi-Medium.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Satoshi';
+    background-color: #000;
+    color: #fff;
+    float: left;
+    width: 100%;
+    /* cursor: none !important; */
+}
+
+a, 
+button {
+  /* cursor: none !important; */
+}
+
+/* Optional: Hide cursor on touch devices */
+@media (hover: none) and (pointer: coarse) {
+  .custom-cursor {
+    display: none !important;
+  }
+}
+
+
+
+
+footer{
+  font-family: 'Satoshi';
+    color: #fff;
+    float: left;
+    width: 100%;
+    padding: 80px 0;
+}
+  nav{
+    border-bottom: solid 1px #393939;
+}
+.title-one{ color: #fff;}
+.title-two{ color: #fff;}
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+header{
+  width: 100%;
+  padding: 0 0 0 0 !important;
+}
+header a {
+  font-size: 14px !important;
+  letter-spacing: 1px;
+  color: #fff !important;
+  text-transform: uppercase;
+}
+nav{
+  background-color: #000 !important;
+}
+h3{
+  font-size: 50px;
+  color: #fff;
+}
+h4{
+  font-size: 16px;
+  color: #9A9A9A;
+}
+
+h2{
+  font-size: 45px;
+}
+
+.group[data-has-value="true"] .group-data-\[has-value\=true\]\:text-default-foreground {
+  --tw-text-opacity: 1;
+  color: #fff !important;
+}
+.group[data-filled-within="true"] .group-data-\[filled-within\=true\]\:text-default-600 {
+  --tw-text-opacity: 1;
+  color: #fff !important;
+}
+.footer-logo input {
+  color: #fff;
+  background-color: #ff0000;
+  border-bottom: solid 1px #fff;
+}
+.footer-logo select {
+  color: #fff;
+}
+.footer-logo button {
+  color: #fff;
+}
+
+
+
+[data-slot="content"] {
+  background-color: #000; 
+  color: #fff;
+}
+
+
+
+.slick-prev {
+  left: auto !important;
+  position: absolute !important;
+  right: 7px;
+  top: -40px !important;
+}
+.slick-next {
+  left: auto !important;
+  position: absolute !important;
+  right: 40px;
+  top: -40px !important;
+}
+
+
+.two-btn{
+  width: 100%;
+  display: flex;
+  max-width: 450px;
+  margin: 0 auto;
+
+}
+.two-btn button{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    font-weight: 700;    
+    width: 204px;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: block;
+    margin-bottom: 50px;
+
+}
+
+
+.two-btn button:nth-child(1) {
+  background-color: #fff;
+  color: #000;
+}
+.two-btn button:nth-child(2) {
+  background-color: #363636;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 2000px) and (min-width: 1536px) {
+  header {
+    max-width: 1536px !important;
+}
+}
+@media screen and (max-width: 1535px) and (min-width: 1280px) {
+  header {
+    max-width: 1280px !important;
+}
+}
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+  header {
+    max-width: 1024px !important;
+}
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  header {
+    max-width: 100% !important;
+    padding: 0 15px !important;
+}
+
+}
+@media screen and (max-width: 767px) and (min-width: 640px) {
+  header {
+    max-width: 640px !important;
+}
+}
+
+nav{
+  background: #000;
+}
+
+
+@media (max-width: 1023px) {
+  header {
+      padding: 0 15px !important;
+  }
+  h3 {
+    font-size: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+

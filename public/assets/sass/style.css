@@ -3279,6 +3279,8 @@ label {
   position: fixed !important;
   width: 100%;
   z-index: 999;
+  background: #fff;
+  padding: 10px 0;
 }
 
 .cs_gescout_sticky {
@@ -3322,6 +3324,7 @@ label {
 }
 .cs_site_branding img {
   max-height: 45px;
+  width: auto;
 }
 
 @media screen and (min-width: 1200px) {

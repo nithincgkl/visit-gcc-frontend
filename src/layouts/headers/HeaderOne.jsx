@@ -1,4 +1,4 @@
-'use client'
+'use client' 
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
 import UseSticky from "@/hooks/UseSticky";
@@ -7,67 +7,7 @@ import Image from "next/image";
 import logo from "@/assets/img/logo.svg";
 import Logo_white from "@/assets/img/Logo_white.png";
 
-const menu_data = [
-	{
-		id: 1,
-		title: "Home",
-		link: "/",
-		has_dropdown: true,
-		sub_menu: [
-			{ id: 1, title: "Digital Agency222", link: "/" },
-			{ id: 2, title: "Startup Agency", link: "/startup-agency" },
-			{ id: 3, title: "Design Studio", link: "/design-studio" },
-			{ id: 4, title: "Creative Protfolio", link: "/creative-protfolio" },
-			{ id: 5, title: "Marketing Agency", link: "/marketing-agency" },
-		]
-	},
-	{ id: 2, title: "About555555555555", link: '/about', has_dropdown: false },
-	{
-		id: 3,
-		title: "Pages",
-		link: "/about",
-		has_dropdown: true,
-		sub_menu: [
-			{ id: 1, title: "About", link: "/about" },
-			{ id: 2, title: "Team", link: "/team" },
-			{ id: 3, title: "Team Details", link: "/team-details" },
-			{ id: 4, title: "Contact", link: "/contact" },
-			{ id: 5, title: "Faq", link: "/faq" },
-			{ id: 6, title: "Error", link: "/error" }
-		]
-	},
-	{
-		id: 4,
-		title: "Services",
-		link: "/service",
-		has_dropdown: true,
-		sub_menu: [
-			{ id: 1, title: "Services", link: "/service" },
-			{ id: 2, title: "Services Details", link: "/service-details" }
-		]
-	},
-	{
-		id: 5,
-		title: "Portfolio",
-		link: "/portfolio",
-		has_dropdown: true,
-		sub_menu: [
-			{ id: 1, title: "Portfolio", link: "/portfolio" },
-			{ id: 2, title: "Portfolio Details", link: "/portfolio-details" }
-		]
-	},
-	{
-		id: 6,
-		title: "Blog",
-		link: "/blog",
-		has_dropdown: true,
-		sub_menu: [
-			{ id: 1, title: "Blog", link: "/blog" },
-			{ id: 2, title: "Blog Details", link: "/blog-details" }
-		]
-	},
-	{ id: 7, title: "Contact", link: "/contact", has_dropdown: false }
-]
+
 
 const HeaderOne = () => {
 	const { sticky } = UseSticky();

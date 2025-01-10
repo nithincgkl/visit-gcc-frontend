@@ -31,7 +31,7 @@ const Index = () => {
           <main>
           {/* <BannerVideo /> */}
        
-         <BannerSearch />
+         <BannerSearch /> 
         
           
             

@@ -5160,7 +5160,7 @@ label {
   }
   .cs_card.cs_style_2 .cs_card_hover_img {
     width: 150px !important;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     right: 20px;
   }
   .cs_card.cs_style_2.active .cs_card_hover_img {

@@ -1,4 +1,4 @@
-// File: C:\WORK\visit-gcc-frontend\src\app\page.jsx
+// File: C:\WORK\visit-gcc-frontend\src\app\page.tsx
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

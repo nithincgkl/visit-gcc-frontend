@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image, { StaticImageData } from 'next/image';
 
-import blog_img_1 from "@/assets/img/post_1.jpg";
+import blog_img_1 from "@/assets/images/package/03.jpg";
 import blog_img_2 from "@/assets/img/post_2.jpg";
 import blog_img_3 from "@/assets/img/post_3.jpg";
 import blog_img_4 from "@/assets/img/post_4.jpg";

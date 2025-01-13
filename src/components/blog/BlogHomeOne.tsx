@@ -41,7 +41,7 @@ const blog_data: DataType[] = [
     title: `Reasons Business Needs a Agency`,
     des: `The art of creative thinking could be a blog that explores the various ways in which people.`,
   },
-  {
+  { 
     id: 5,
     img: blog_img_2,
     title: `How a Creative Agency Can Help?`,

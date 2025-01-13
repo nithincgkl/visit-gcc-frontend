@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useState } from 'react';
 import HeaderOne from '@/layouts/headers/HeaderOne';
@@ -17,23 +17,23 @@ import BrandHomeOne from '@/components/brand/BrandHomeOne';
 import FooterOne from '@/layouts/footers/FooterOne';
 import Wrapper from '@/layouts/Wrapper';
 import VideoPopup from '@/components/modals/VideoPopup';
-import Banner from '@/components/home/banner'
-import BannerSearch from '@/components/home/banner';
+import BannerSearch from '@/components/common/banner/BannerSearch';
+import CountriesLink from '@/components/common/gccCountriesLink/gccCountriesLink';
 
-const Index = () => {
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
 
-  return ( 
+const Index: React.FC = () => {
+  const [isVideoOpen, setIsVideoOpen] = useState<boolean>(false);
+
+  return (
     <Wrapper>
       <HeaderOne />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-          {/* <BannerVideo /> */}
-       
-         <BannerSearch /> 
-        
-          
+            {/* <BannerVideo /> */}
+            <BannerSearch />
+            <CountriesLink />
+            <BlogHomeOne />
             
             <MarqueeAreaHomeOne />
             <AboutHomeOne />
@@ -55,7 +55,7 @@ const Index = () => {
       <VideoPopup
         isVideoOpen={isVideoOpen}
         setIsVideoOpen={setIsVideoOpen}
-        videoId={"qmGYnJgCW1o"}
+        videoId="qmGYnJgCW1o"
       />
       {/* video modal end */}
     </Wrapper>
@@ -63,4 +63,3 @@ const Index = () => {
 };
 
 export default Index;
- 

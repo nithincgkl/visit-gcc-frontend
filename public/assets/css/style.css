@@ -166,6 +166,7 @@ h4 {
 
 h5 {
     font-size: 28px;
+    
 }
 
 h6 {
@@ -2855,7 +2856,7 @@ label {
 }
 
 .cs_slider_3 .swiper-slide:nth-child(odd) {
-    margin-top: 45px;
+    /* margin-top: 45px; */
 }
 
 .cs_slider_3.cs_vw_none {
@@ -5642,7 +5643,7 @@ label {
     }
     .cs_card.cs_style_2 .cs_card_hover_img {
         width: 150px !important;
-        margin-top: 45px;
+        /* margin-top: 45px; */
         right: 20px;
     }
     .cs_card.cs_style_2.active .cs_card_hover_img {

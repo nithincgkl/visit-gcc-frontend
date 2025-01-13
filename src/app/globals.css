@@ -237,6 +237,10 @@ nav{
 
 
 
+.style_slider .swiper-slide:nth-child(odd) {
+  margin-top: 0;
+}
+
 
 
 
